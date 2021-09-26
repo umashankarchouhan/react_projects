@@ -1,0 +1,14 @@
+.edit,.delete,.task{
+
+background-color:yellow;
+font-size: 1.5rem;
+letter-spacing: 4px;
+
+
+}
+.delete,.edit{
+
+    cursor:pointer;
+    padding-left: 20px;
+
+}

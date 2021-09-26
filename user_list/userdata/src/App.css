@@ -1,0 +1,29 @@
+.paginationcont{
+display: flex;
+list-style: none;
+justify-content: center;
+font-weight: bolder;
+color: white;
+
+}
+.nextbtn ,.prevbttn,.paginationcont a{
+padding: 0 20px;
+
+
+text-align: center;
+margin: 4px;
+background-color: black;
+color: white;
+text-decoration: none;
+}
+.nextbtn:hover , .prevbtn:hover ,.paginationcont li:hover{
+
+transform: scale(1.1);
+
+
+
+}
+.paginationActive>a {
+  background-color:navy;
+  
+}
